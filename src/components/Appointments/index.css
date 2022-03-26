@@ -1,0 +1,114 @@
+* {
+  font-family: 'Roboto';
+}
+
+.container {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  padding: 40px 20px;
+  height: fit-content;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: auto;
+}
+
+form {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #b5b7c4;
+}
+
+h1,
+h2 {
+  color: #171f46;
+}
+
+label {
+  font-size: 12px;
+}
+
+input {
+  width: 83%;
+  border: 1px solid #b5b7c4;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  margin-top: 8px;
+}
+
+.add-btn {
+  color: #fff;
+  background-color: #8b5cf6;
+  border-width: 0;
+  border-radius: 5px;
+  padding: 8px 18px;
+  cursor: pointer;
+}
+
+.input-container {
+  width: 40%;
+}
+
+.image {
+  width: 45%;
+}
+
+.btm-container {
+  width: 90%;
+}
+
+.appointments-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.starred-btn {
+  color: #8b5cf6;
+  background-color: #fff;
+  border: 1px solid #8b5cf6;
+  border-radius: 20px;
+  padding: 5px 20px;
+  cursor: pointer;
+}
+
+.clicked {
+  color: #fff;
+  background-color: #8b5cf6;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .image {
+    display: none;
+  }
+  .input-container {
+    width: 100%;
+  }
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .starred-btn {
+    padding: 5px 10px;
+  }
+}

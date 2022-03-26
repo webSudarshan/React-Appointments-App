@@ -1,0 +1,33 @@
+li {
+  border: 1px solid #b5b7c4;
+  border-radius: 10px;
+  padding: 0 10px;
+  width: 30%;
+  margin: 5px;
+}
+
+.title {
+  color: #171f46;
+  font-weight: bold;
+}
+
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.star-btn {
+  background-color: transparent;
+  border: 0;
+}
+
+p {
+  color: #b5b7c4;
+}
+
+@media (max-width: 576px) {
+  li {
+    width: 100%;
+  }
+}
